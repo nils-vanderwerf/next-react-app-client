@@ -1,10 +1,13 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import React from 'react'
+import { Context } from '../context'
+import { useContext } from 'react'
+
 const Home = () => {
+  const { state } = useContext(Context)
 return (
   <div>
     <h2>Home page</h2>
+    {JSON.stringify(state)}
   </div>
 )
 }
