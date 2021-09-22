@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Provider>
     <Nav/>
-    <Component {...pageProps} />
+      <Component {...pageProps} />
     </Provider>
   )
 }

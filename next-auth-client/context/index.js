@@ -17,7 +17,7 @@ const initialState = {
     user: null
 }
 
-const Context = createContext()
+const Context = createContext({})
 
 //context provider
 const Provider = ({children}) => {

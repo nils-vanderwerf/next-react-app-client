@@ -10,6 +10,9 @@ export default function Nav() {
             <Link href="/login">
                 <a className="nav-link">Login</a>
             </Link>
+            <Link href="/register">
+                <a className="nav-link">Sign Up</a>
+            </Link>
         </nav>
     )
 }
